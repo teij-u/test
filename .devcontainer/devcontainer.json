@@ -1,0 +1,20 @@
+{
+  "name": "Flutter Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  // コンテナ内でVS Codeの拡張機能を自動インストール
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter"
+      ]
+    }
+  },
+  // コンテナが作られた後に実行するコマンド
+  "postCreateCommand": "flutter pub get",
+  // 開発サーバーやデバッガーをPCからアクセス可能にする
+  "forwardPorts": [9100, 9101],
+  // この設定でコンテナ内からPCで起動したエミュレーターに接続できる
+  "runArgs": ["--net=host"]
+}

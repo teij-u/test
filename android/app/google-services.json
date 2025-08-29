@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "719387819313",
+    "project_id": "job-finder-app-test",
+    "storage_bucket": "job-finder-app-test.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719387819313:android:17a893ecf8f306b6030410",
+        "android_client_info": {
+          "package_name": "com.example.freelance_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXvsTOKNSSOvMtTXurEyHACpRYI_rSWac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719387819313:android:cfd94f8274687e31030410",
+        "android_client_info": {
+          "package_name": "com.example.freelance_app_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXvsTOKNSSOvMtTXurEyHACpRYI_rSWac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
